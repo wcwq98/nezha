@@ -126,7 +126,7 @@ pre_check() {
     else
         if [ -z "$CN" ]; then
             GITHUB_RAW_URL="raw.githubusercontent.com/nezhahq/scripts/main"
-            GITHUB_URL="https://host.wxgwxha.eu.org/https://github.com"
+            GITHUB_URL="host.wxgwxha.eu.org/https://github.com"
             Get_Docker_URL="get.docker.com"
             Get_Docker_Argu=" "
             Docker_IMG="ghcr.io\/naiba\/nezha-dashboard"
